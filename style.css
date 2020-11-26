@@ -1,0 +1,44 @@
+h1 {
+  background-color: indigo;
+  color: goldenrod;
+
+  font-family: fantasy;
+  padding: 50px;
+  transition: color, 2s, linear, 5s;
+}
+.mainContent {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  font-family: "Courier New", Courier, monospace;
+  font-style: oblique;
+  color: crimson;
+  font-size: 15px;
+  font-weight: bolder;
+  background-image: url("bg.jpg");
+
+  padding: 20px;
+  margin: 25px;
+  width: 1200px;
+
+  align-items: center;
+  flex-direction: row;
+}
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: crimson;
+}
+img:hover {
+  transform: scale(1.2);
+}
+.mainContent p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -60%);
+  opacity: 0;
+}
